@@ -29,7 +29,7 @@ public class DateZomeTest {
 	}
 
 	public String andString(String s) {
-		String[] sarray = s.split(" ");
+//		String[] sarray = s.split(" ");
 
 		return "";
 
