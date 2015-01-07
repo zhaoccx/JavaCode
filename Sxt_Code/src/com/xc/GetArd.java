@@ -12,7 +12,7 @@ public class GetArd {
 	public static void main(String[] args) {
 		try {
 
-			java.net.URL url = new java.net.URL("");
+			java.net.URL url = new java.net.URL("http://cl.org.ru/htm_data/7/1411/1296368.html");
 			System.out.println(url.openStream().toString());
 			BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
 			String ling = "";
@@ -29,7 +29,7 @@ public class GetArd {
 	}
 
 	private static void SVNs(String ling) {
-		Pattern pattern = Pattern.compile("码08");
+		Pattern pattern = Pattern.compile("");
 		Matcher matcher = pattern.matcher(ling);
 		while (matcher.find()) {
 			System.out.println("ssssssssssssssssssssssss");
