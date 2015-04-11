@@ -13,3 +13,10 @@
 	city CDATA #FIXED "北京"
 	lang (EN|CN|JP|TW) "CN"
 >
+
+
+<!-- 
+	required
+	implied
+	fixed
+-->
