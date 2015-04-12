@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE books SYSTEM "books.dtd">
-<!-- 
 <books>
-	<person></person>
-	<user></user>
-	<worker></worker>
+	<person>
+		<name></name>
+		<age></age>
+		<tel></tel>
+	</person>
+	<user>
+		<name></name>
+		<age></age>
+		<tel></tel>
+		<password></password>
+	</user>
+	<worker>
+		<name></name>
+		<age></age>
+		<tel/>
+		<money/>
+	</worker>
+	
+	<person>
+		<name></name>
+		<age></age>
+		<tel></tel>
+	</person>
+	<user>
+		<name></name>
+		<age></age>
+		<tel></tel>
+		<password></password>
+	</user>
+	<worker>
+		<name></name>
+		<age></age>
+		<tel/>
+		<money/>
+	</worker>
+	
 </books>
- -->

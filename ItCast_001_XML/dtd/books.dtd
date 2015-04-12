@@ -4,7 +4,7 @@
 <!ENTITY % userInfo "name,age,tel">
 
 
-<!ELEMENT books (person,user,worker)>
+<!ELEMENT books (person,user,worker)+>
 
 <!ELEMENT person (%userInfo;)>
 <!ELEMENT user (%userInfo;,password)>
