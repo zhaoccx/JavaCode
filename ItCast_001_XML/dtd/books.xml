@@ -36,5 +36,7 @@
 		<tel/>
 		<money/>
 	</worker>
-	
+	<!-- Description	Resource	Path	Location	Type
+Classpath entry org.eclipse.jdt.USER_LIBRARY/tomcat will not be exported or published. Runtime ClassNotFoundExceptions may result.  	AjaxDemo		P/AjaxDemo	Classpath Dependency Validator Message
+	 -->
 </books>
