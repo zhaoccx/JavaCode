@@ -33,6 +33,7 @@ public class Mys {
 	public static void main(String[] args) {
 		System.out.println("start");
 		Mys.getWebCon("http://tieba.baidu.com/p/2397637364"); // 这是要抓取的网页,自己可以试下.
+		System.out.println("end");
 	}
 
 	private static void parse(String line) {
