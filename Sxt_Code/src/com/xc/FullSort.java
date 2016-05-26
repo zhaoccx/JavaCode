@@ -18,6 +18,7 @@ import java.util.List;
  * @date 2009-04-25 23:57:23 PM
  */
 public class FullSort {
+
 	// 将NUM设置为待排列数组的长度即实现全排列
 	private static int NUM = 4;
 
@@ -50,17 +51,17 @@ public class FullSort {
 		String[] datas = "3de0 7d3c 6d47 53dd".split(" ");
 		sort(Arrays.asList(datas), new ArrayList());
 	}
-	
-//	@SuppressWarnings("rawtypes")
-//	public static void main(String[] args) {
-//		String datas = "1c@69#928f99c089";
-//		String [] se = {"a","b","c","d","e","f"};
-//		for (int i = 0; i < 6; i++) {
-//			for (int j = 0; j < 6; j++) {
-//				System.out.println(datas.replaceAll("@", se[i]).replaceAll("#", se[i]));
-//				System.out.println();
-//			}
-//		}
-//	}
+
+	// @SuppressWarnings("rawtypes")
+	// public static void main(String[] args) {
+	// String datas = "1c@69#928f99c089";
+	// String [] se = {"a","b","c","d","e","f"};
+	// for (int i = 0; i < 6; i++) {
+	// for (int j = 0; j < 6; j++) {
+	// System.out.println(datas.replaceAll("@", se[i]).replaceAll("#", se[i]));
+	// System.out.println();
+	// }
+	// }
+	// }
 
 }
